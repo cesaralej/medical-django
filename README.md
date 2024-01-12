@@ -1,4 +1,4 @@
-# Your Web App Name
+# Technical Assignment: Dicom + Dynalog Analyzer
 
 Brief description or tagline about your web app.
 
@@ -52,7 +52,3 @@ Specify the license under which your web app is released. Choose an open-source 
 ## Acknowledgements
 
 If you used external resources, libraries, or inspiration, give credit to them in this section.
-
----
-
-Feel free to customize this template based on the specific details of your web app. Provide as much information as necessary to make it easy for others to understand, use, and contribute to your project.
