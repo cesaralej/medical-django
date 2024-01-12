@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerma</title>
+    <style>
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .main {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Kerma - Technical Assignment</h1>
+    </nav>
+    <div class="main">
+        <div class="container">
+            <h3>File Name: {{ dicom_path }}</h3>
+            <p>Patient Name: {{ pname }}</p>
+            <p>Study Date: {{ sdate }}</p>
+            <p>Study Description: {{ sdesc }}</p>
+        </div>
+        <div class="container">
+            <h3>File Name: {{ dynalog_path }}</h3>
+            <p>Fluency (Actual vs Expected):</p>
+            <img src="data:image/png;base64,{{ chart_image }}" alt="Matplotlib Chart">
+        </div>
+    </div>
+</body>
+</html>

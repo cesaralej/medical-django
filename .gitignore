@@ -128,7 +128,7 @@ dmypy.json
 .pyre/
 
 # your directories
-/data
+/ddviewer/data
 /django
 /test
 /venv
